@@ -1,0 +1,53 @@
+#posiciones{
+    width: 30%;
+    height:calc(100vh - 3rem);
+    margin-top: 3rem;
+    background-color: grey;
+    position: fixed;
+    box-shadow: 0 0 10px black;
+    z-index: 0;
+}
+
+.torneo{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+
+.logoTorneo{
+    width: 100px;
+    height: 100px;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    background-image: url(https://previews.123rf.com/images/pechenyh/pechenyh1508/pechenyh150800010/44225527-etiqueta-de-f%C3%BAtbol-con-el-texto-de-la-muestra-plantilla-logo-estilo-inconformista-vintage-insignia.jpg);
+    background-size: 100px;
+}
+.tablaPosiciones{
+    height: calc(calc(100vh - 3rem) - 200px);
+    overflow: auto;
+}
+table{
+    width: 100%;
+    th{
+        background-color: white;
+        padding: 4px 2px;
+    }
+    td{
+        text-align: center;
+        color: white;
+        .logo{
+            width: 20px;
+            height: 20px;
+            background-color: white;
+        }
+    }
+}

@@ -6,3 +6,25 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    transition: all 1s ease;
+    &.dark{
+        background-color: black;
+        --primary-color:rgb(6, 2, 51);
+        --sombra-caja: 0 0 10px white;
+        --sombra-texto:2px 2px 2px red;
+        --url-logo-modo:url(./assets/modoOscuro.png);
+        --hover-a-color:rgba(255, 255, 255, 0.3);
+    }
+}
+
+:root{
+    --primary-color:gray;
+    --secundary-color:#333;
+    --text-primary-color:white;
+    --sombra-caja: 0 0 10px black;
+    --sombra-texto:2px 2px 2px black;
+    --url-logo-modo:url(./assets/modoLuz.png);
+    --hover-a-color:rgba(0, 0, 0, 0.3);
+}
+

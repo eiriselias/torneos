@@ -1,0 +1,37 @@
+{
+    "equipos": [
+      {
+        "id": 1,
+        "equipo": "Barcelona",
+        "Nº": 1,
+        "PJ": 10,
+        "DG": 15,
+        "PTS": 27
+      },
+      {
+        "id": 2,
+        "equipo": "Real Madrid",
+        "Nº": 2,
+        "PJ": 10,
+        "DG": 12,
+        "PTS": 25
+      },
+      {
+        "id": 3,
+        "equipo": "Atlético de Madrid",
+        "Nº": 3,
+        "PJ": 10,
+        "DG": 10,
+        "PTS": 22
+      },
+      {
+        "id": 4,
+        "equipo": "Paris Saint-Germain",
+        "Nº": 1,
+        "PJ": 9,
+        "DG": 20,
+        "PTS": 27
+      }
+    ]
+  }
+  

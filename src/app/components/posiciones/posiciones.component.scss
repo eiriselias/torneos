@@ -2,9 +2,9 @@
     width: 30%;
     height:calc(100vh - 3rem);
     margin-top: 3rem;
-    background-color: grey;
+    background-color: var(--primary-color);
     position: fixed;
-    box-shadow: 0 0 10px black;
+    box-shadow: var(--sombra-caja);
     z-index: 0;
 }
 
@@ -16,9 +16,23 @@
     align-items: center;
     h2{
         color: white;
-        text-shadow: 2px 2px 2px black;
+        text-shadow:var(--sombra-texto);
         text-transform: uppercase;
         font-size: 20px;
+        animation: torneo 2s ease;
+    }
+    @keyframes torneo {
+        0%{
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        70%{
+            opacity: .3;
+        }
+        100%{
+            transform: translateY(0%);
+            opacity: 1;
+        }
     }
 }
 
@@ -30,13 +44,26 @@
     box-shadow: 0 0 20px white;
     background-image: url(https://previews.123rf.com/images/pechenyh/pechenyh1508/pechenyh150800010/44225527-etiqueta-de-f%C3%BAtbol-con-el-texto-de-la-muestra-plantilla-logo-estilo-inconformista-vintage-insignia.jpg);
     background-size: 100px;
+    animation:rebote 4s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
 }
+
+@keyframes rebote {
+    0%{
+    transform: translateX(300%);
+    }
+    100%{
+    transform: translateX(0);
+    }
+}
+
 .tablaPosiciones{
     height: calc(calc(100vh - 3rem) - 200px);
     overflow: auto;
 }
 table{
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation:tabla 4s ease;
     th{
         background-color: white;
         padding: 4px 2px;
@@ -48,6 +75,22 @@ table{
             width: 20px;
             height: 20px;
             background-color: white;
+        }
+    }
+    td:nth-child(3){
+        text-align: start;
+        text-transform: capitalize;
+    }
+    tbody tr:hover{
+        background-color: gray;
+        cursor:pointer;
+    }
+    @keyframes tabla {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
         }
     }
 }

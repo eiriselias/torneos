@@ -1,9 +1,9 @@
 .nav{
     height: 3rem;
     width: 100%;
-    background-color: gray;
+    background-color:var(--primary-color);
     position:fixed;
-    box-shadow: 0 0 10px black;
+    box-shadow: var(--sombra-caja);
     z-index: 1;
 }
 .nav-header{
@@ -12,9 +12,9 @@
 .nav-title{
     display: inline-block;
     font-size: 23px;
-    color: #fff;
+    color: var(--text-primary-color);
     padding: 10px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: var(--sombra-texto);
 }
 .nav-btn{
     display: none;
@@ -26,19 +26,47 @@
     a{
         display: inline-block;
         padding: 13px 10px;
-        color: #efefef;
+        color: var(--text-primary-color);
         transition: all 500ms ease;
         cursor: pointer;
+        label{
+            text-transform: capitalize;
+        }
     }
     a:hover{
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: var(--hover-a-color);
         transform: scale(1.1);
         cursor: pointer;
+    }
+}
+.modo{
+    width: 60px;
+    display: inline;
+    float: right;
+    justify-content: center;
+    cursor:pointer;
+    img{
+        width: 100%;
+        
+    }
+    .oscuro{
+        
+        &.ver{
+            display: none;
+        }
+    }
+    .luz{
+        
+        &.ver{
+            display: none;
+        }
     }
 }
 #check{
     display: none;
 }
+
+
 
 @media screen and (max-width:768px) {
     .nav-btn{
@@ -57,7 +85,7 @@
             width: 25px;
             height: 10px;
             border-top: 2px solid;
-            border-top-color: white;
+            border-top-color:var(--text-primary-color);
         }
     }
     
@@ -69,7 +97,7 @@
         top: 50px;
         left: 0;
         transition: all 0.3s ease-in;
-        background-color: #333;
+        background-color: var(--secundary-color);
         overflow-y: hidden;
         a{
             display: block;

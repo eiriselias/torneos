@@ -1,37 +1,123 @@
-{
-    "equipos": [
-      {
-        "id": 1,
-        "equipo": "Barcelona",
-        "Nº": 1,
-        "PJ": 10,
-        "DG": 15,
-        "PTS": 27
-      },
-      {
-        "id": 2,
-        "equipo": "Real Madrid",
-        "Nº": 2,
-        "PJ": 10,
-        "DG": 12,
-        "PTS": 25
-      },
-      {
-        "id": 3,
-        "equipo": "Atlético de Madrid",
-        "Nº": 3,
-        "PJ": 10,
-        "DG": 10,
-        "PTS": 22
-      },
-      {
-        "id": 4,
-        "equipo": "Paris Saint-Germain",
-        "Nº": 1,
-        "PJ": 9,
-        "DG": 20,
-        "PTS": 27
-      }
-    ]
-  }
-  
+ [
+    {
+      "id": 1,
+      "equipo": "Barcelona",
+      "PS": 1,
+      "PJ": 10,
+      "DG": 15,
+      "PTS": 27,
+      "img":"",
+      "diTecn":"eiris elias salazar aguilar"
+    },
+    {
+      "id": 4,
+      "equipo": "Paris Saint-Germain",
+      "PS": 2,
+      "PJ": 9,
+      "DG": 20,
+      "PTS": 27,
+      "img":"",
+      "diTecn":"jhan carlos salazar aguilar"
+    },
+    {
+      "id": 2,
+      "equipo": "Real Madrid",
+      "PS": 3,
+      "PJ": 10,
+      "DG": 12,
+      "PTS": 25,
+      "img":"",
+      "diTecn":"Victor sanchez rodriguez"
+    },
+    {
+      "id": 3,
+      "equipo": "Atlético de Madrid",
+      "PS": 4,
+      "PJ": 10,
+      "DG": 10,
+      "PTS": 22,
+      "img":"",
+      "diTecn":"omar velasquez aguirre"
+    },
+    {
+      "id": 5,
+      "equipo": "Liverpool",
+      "PS": 5,
+      "PJ": 11,
+      "DG": 18,
+      "PTS": 20,
+      "img":"",
+      "diTecn":"hector mina vidal"
+    },
+    {
+      "id": 6,
+      "equipo": "Bayern Munich",
+      "PS": 6,
+      "PJ": 11,
+      "DG": 16,
+      "PTS": 19,
+      "img":"",
+      "diTecn":"jose maldonado torres"
+    },
+    {
+      "id": 7,
+      "equipo": "Juventus",
+      "PS": 7,
+      "PJ": 10,
+      "DG": 8,
+      "PTS": 18,
+      "img":"",
+      "diTecn":"carlos valentierra ramirez"
+    },
+    {
+      "id": 8,
+      "equipo": "Manchester City",
+      "PS": 8,
+      "PJ": 11,
+      "DG": 14,
+      "PTS": 17,
+      "img":"",
+      "diTecn":"miguel perlaza rodriguez"
+    },
+    {
+      "id": 9,
+      "equipo": "Borussia Dortmund",
+      "PS": 9,
+      "PJ": 10,
+      "DG": 6,
+      "PTS": 16,
+      "img":"",
+      "diTecn":"angel congo inestrosa"
+    },
+    {
+      "id": 10,
+      "equipo": "Chelsea",
+      "PS": 10,
+      "PJ": 10,
+      "DG": 5,
+      "PTS": 15,
+      "img":"",
+      "diTecn":"antonio hurrutia guzman"
+    },
+    {
+      "id": 11,
+      "equipo": "AC Milan",
+      "PS": 11,
+      "PJ": 11,
+      "DG": 2,
+      "PTS": 14,
+      "img":"",
+      "diTecn":"victor dasilva congo"
+    },
+    {
+      "id": 12,
+      "equipo": "Sevilla",
+      "PS": 12,
+      "PJ": 10,
+      "DG": 1,
+      "PTS": 13,
+      "img":"",
+      "diTecn":"david caicedo murcia"
+    }
+  ]
+

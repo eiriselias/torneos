@@ -1,3 +1,71 @@
 #equipo{
-    height: 200vh;
+    height: 300px;
+    margin: 6rem 3rem;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color:var(--equipo-card-color);
+    border-radius: 10px;
+    box-shadow: var(--sombra-caja);
+    animation: descripcion 2s ease;
+}
+@keyframes descripcion {
+    0%{
+        transform: scale(.5);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.escudo{
+    background-color:white;
+    background-size: 250px;
+    background-position: center center;
+    width:80%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: var(--sombra-caja);
+    overflow: hidden;
+    img{    
+        width: 100%;
+    }
+}
+
+.descripcion{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+    h2{
+        text-transform: uppercase;
+        color:white;
+        text-shadow: var(--sombra-texto);
+        font-size: 40px;
+    }
+    h4{
+        text-transform: capitalize;
+        color: var(--texto-color);
+    }
+    span{
+        color: var(--texto-color);
+    }
+    hr{
+        margin-top: 13px;
+    }
+    .lista{
+
+        ul{
+            list-style: none;
+        }
+        li{
+            text-align: start;
+            color: var(--texto-color)
+        }
+    }   
 }

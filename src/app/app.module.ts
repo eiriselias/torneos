@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule } from '@angular/forms';
 import { PosicionesComponent } from './components/posiciones/posiciones.component';
 import { EquipoComponent } from './components/equipo/equipo.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 
@@ -15,12 +16,13 @@ import { EquipoComponent } from './components/equipo/equipo.component';
     AppComponent,
     NavBarComponent,
     PosicionesComponent,
-    EquipoComponent
+    EquipoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,22 @@
-<section id="equipo"></section>
+<section id="equipo">
+    <div class="escudo">
+        <img src="{{equipos[id].img}}" alt="" onerror="this.src='https://previews.123rf.com/images/pechenyh/pechenyh1508/pechenyh150800010/44225527-etiqueta-de-f%C3%BAtbol-con-el-texto-de-la-muestra-plantilla-logo-estilo-inconformista-vintage-insignia.jpg';">
+    </div>
+    <div class="descripcion">
+        <div>
+            <h2>{{equipos[id].equipo}}</h2>
+            <h4>{{equipos[id].diTecn}}</h4>
+            <span>Director Tecnico</span>
+            <hr>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>Posicion: <strong>{{equipos[id].PS}}</strong> </li>
+                <li>Puntos: <strong>{{equipos[id].PTS}}</strong></li>
+                <li>Diferencia: <strong>{{equipos[id].DG}}</strong></li>
+                <li>Partidos Jugados: <strong>{{equipos[id].PJ}}</strong></li>
+            </ul>
+
+        </div>
+    </div>
+</section>

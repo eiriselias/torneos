@@ -17,29 +17,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
+                <tr *ngFor="let equipo of equipos">
+                    <td>{{equipo.PS}}</td>
                     <td class="logo"></td>
-                    <td>fenix</td>
-                    <td>3</td>
-                    <td>5</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td class="logo"></td>
-                    <td>galaticas</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td class="logo"></td>
-                    <td>vengadoras</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>6</td>
+                    <td>{{equipo.equipo}}</td>
+                    <td>{{equipo.PJ}}</td>
+                    <td>{{equipo.DG}}</td>
+                    <td>{{equipo.PTS}}</td>
                 </tr>
             </tbody>
         </table>

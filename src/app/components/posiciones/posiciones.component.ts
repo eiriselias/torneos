@@ -17,6 +17,8 @@ export class PosicionesComponent implements OnInit{
       next:( e =>{
         this.equipos = e
     })
-    })
+    });
+      
   }
+
 }

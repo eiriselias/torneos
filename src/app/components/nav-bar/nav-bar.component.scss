@@ -32,11 +32,25 @@
         label{
             text-transform: capitalize;
         }
+        ul{
+            display: none;
+        }
     }
     a:hover{
         background-color: var(--hover-a-color);
         transform: scale(1.1);
         cursor: pointer;
+        ul{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 200px;
+            background-color: var(--primary-color);
+            margin-top: 12px;
+            a:hover{
+                background-color: none;
+            }
+        }
     }
 }
 .modo{

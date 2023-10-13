@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { PosicionesComponent } from './components/posiciones/posiciones.component';
 import { EquipoComponent } from './components/equipo/equipo.component';
 import { HttpClientModule } from "@angular/common/http";
+import { NuevoEquipoComponent } from './components/nuevo-equipo/nuevo-equipo.component';
+import { NuevoJugadorComponent } from './components/nuevo-jugador/nuevo-jugador.component';
 
 
 
@@ -17,6 +19,8 @@ import { HttpClientModule } from "@angular/common/http";
     NavBarComponent,
     PosicionesComponent,
     EquipoComponent,
+    NuevoEquipoComponent,
+    NuevoJugadorComponent,
   ],
   imports: [
     BrowserModule,

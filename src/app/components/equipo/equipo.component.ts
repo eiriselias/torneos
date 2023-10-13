@@ -9,7 +9,7 @@ import { EquiposService } from 'src/app/services/equipos.service';
 export class EquipoComponent implements OnInit{
     
     equipos:any;
-    id: number = 1;
+    id: number = 2;
 
     constructor(private dataEquipos:EquiposService){
     }
